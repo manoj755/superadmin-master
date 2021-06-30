@@ -1,0 +1,14 @@
+.error{z-index:99999999;background:#F75151;color:#fff;padding:5px 10px;font-size:12px;font-family:Georgia;margin-top:3px;border:#680000 1px solid;display:none;position:absolute;}
+.errorinline{ clear:both; background:#F75151;color:#fff;padding:5px 10px;font-size:12px;font-family:Georgia;margin-top:3px;border-bottom:#680000 2px solid;box-shadow: 0 3px 2px #fff; display:none;}
+.error .arrow{width:0px;height:0px;border:solid 10px red;border-color:#AA1212 Transparent Transparent Transparent;position:absolute;top:23px;left:20px;}
+.e{}
+.m{}
+.web{}
+.no{}
+.onoffcontainer{ width:100px; position: relative; transition:  all .5s; cursor: pointer; overflow: hidden; height: 40px; border-radius: 20px; box-shadow: 0 1px 10px #9d9d9d; border:solid 1px white;  float: left;}
+.onoffcontainer:hover{ box-shadow: 0 4px 15px #888;}
+.onoffcontainer .on{transition:  all .5s;  background: green; position: absolute; left: 0px; top:0; padding: 10px; width: 100px; text-align: center;  color: white;}
+.onoffcontainer .off{transition:  all .5s;  background: gray; position: absolute; left: 100px; top:0;  padding: 10px; width: 100px; text-align: center; color: #d7d7d7; }
+
+.onoffcontainer.onoff-Unapproved .on{  left: -100px; top:0; }
+.onoffcontainer.onoff-Unapproved .off{ left: 0px; top:0; }

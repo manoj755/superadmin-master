@@ -1,0 +1,1 @@
+<a href="" class="list-group-item " ng-click="grid.appScope.shows(row.entity.id)"  >{{ row.entity.billingName}}</a>

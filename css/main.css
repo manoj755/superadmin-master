@@ -1,0 +1,94 @@
+/*.panel {
+    background-color: #f7f7f7;
+	    margin: 0px auto;
+}
+#menu li {
+    list-style: none;
+    margin: 0px auto !important;
+}
+#menu ul a{
+    display: block;
+    padding: 5px 0;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #;
+}
+#menu li > a {
+    text-decoration: none;
+    margin: 0px auto;
+}
+li.menu.ng-scope a:hover {
+    color: #fff;
+}
+#menu li a:hover {
+    color: #fff;
+}
+.collapse.in {
+    display: block;
+    margin: 0px auto;
+}
+.li.panel {
+    margin: 0px auto;
+}
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    width: 231px;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+aside.main-sidebar {
+    overflow-y: hidden;
+}
+aside.main-sidebar {
+    overflow-x: hidden;
+}
+.main-sidebar {
+    overflow-x: hidden;
+}
+i.fa.fa-angle-left{
+margin-left:100px;
+}
+.panel-heading.active {
+    background-color: green;
+}
+.trams-conditions #toggle4 {
+  font-size: 15px;
+  color: #747474;
+  text-decoration: none;
+  padding-left: 30px;
+  background-size: 9%;
+}
+
+.trams-conditions {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.trams-conditions .plus-icon {
+  background: url('http://icons.iconarchive.com/icons/icons8/ios7/256/User-Interface-Plus-icon.png') no-repeat left center;
+}
+
+.trams-conditions .plus-icon.mins-icon {
+  background: url('http://icons.iconarchive.com/icons/icons8/ios7/256/User-Interface-Minus-icon.png') no-repeat left center;
+}
+
+.trams-conditions .trams-con {
+  font-size: 12px;
+  color: #747474;
+  margin-top: 5px;
+  display: none;
+  overflow: auto;
+  max-width: 500px;
+}
+a#menu-toggle {
+    margin-left: 160px;
+    margin-top: -44px;
+    background: #;
+}
+#hd {
+    margin-top: 6px;
+}
+
+*/
