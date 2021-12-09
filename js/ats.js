@@ -17,11 +17,11 @@ var LoginURL = 'login.php';//"ngFileUpload",
 //var ServiceURL = 'http://localhost:8080/laravel/public/index.php/api/';
 //var rooturi = "http://localhost:8080/laravel/public/";
 //var ServiceURL = 'http://localhost/laravelpr/public/index.php/api/';
-// var ServiceURL = 'http://api.passivereferral.com/index.php/api/';
-var ServiceURL = 'http://127.0.0.1:8000/index.php/api/';
+var ServiceURL = 'https://api.passivereferral.com/index.php/api/';
+// var ServiceURL = 'http://127.0.0.1:8000/index.php/api/';
 
-// var rooturi = "http://api.passivereferral.com/";
-var rooturi = 'http://127.0.0.1:8000/';
+var rooturi = "https://api.passivereferral.com/";
+// var rooturi = 'http://127.0.0.1:8000/';
 var CurrentURL = '';
 function getParameterByName(name, url) {
     if (!url) {

@@ -11,7 +11,7 @@
     </li>
 
     <li ng-if="mp.any || mp.page_user"><a href="#/users"><i class="fa fa-user"></i> <span>Users</span></a></li>
-    <li ng-if="mp.any"><a href="#/billingcall"><i class="fa fa-edit"></i> <span>Billing Details</span></a></li>
+    <li ng-if="mp.any"><a href="#/billingcall"><i class="fa fa-edit"></i> <span>Add Call Credit</span></a></li>
 
     <li ng-if="mp.any"><a href="#/managerole"><i class="fa fa-edit"></i> <span>Manage Role</span></a></li>
      <li ><a href="#/clientdetails"><i class="fa fa-edit"></i> <span>Client Details</span></a></li>

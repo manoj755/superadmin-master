@@ -19,8 +19,13 @@ app.controller('billingcallCtrl', function ($scope, $rootScope, db, $mdDialog, F
             $scope.creditnew.app_id = document.getElementById('usersapp').value;
             console.log($scope.creditnew);
             db.store("billingdetail/", $scope.creditnew, function (response) {
-                debugger;
+       
                 $rootScope.addmessageandremove(response.data.msg);
+                for (const i in $scope.creditnew) {
+                    if ($scope.creditnew[i]) {
+                        $scope.creditnew[i] = '';
+                    }
+                  }
             });
         }
 
